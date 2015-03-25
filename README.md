@@ -3,7 +3,7 @@ IP Address to Country PHP Code
 phpIp2Country ( php IP to country ) - PHP geolocalization class with free (updated daily) IPs database
 
 Example code:
-`
+```
 <?php
 require('phpip2country.class.php');
         
@@ -20,9 +20,9 @@ $phpIp2Country = new phpIp2Country('213.180.138.148',$dbConfigArray);
         
 print_r($phpIp2Country->getInfo(IP_INFO));
 ?>
-`
+```
 Outputs:
-`
+```
 Array
 (
     [IP_FROM] => 3585376256
@@ -37,4 +37,4 @@ Array
     [IP_FROM_STR] => 127.255.255.255
     [IP_TO_STR] => 127.255.255.255
 )
-`
+```
